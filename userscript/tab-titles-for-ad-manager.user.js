@@ -3,7 +3,8 @@
 // @description  Sets order, line item and creative names as tab titles in Google Ad Manager (DFP)
 // @author       @v-ji
 // @namespace    tab-titles-for-ad-manager
-// @version      0.13
+// @version      0.13.1
+// @icon         https://raw.githubusercontent.com/v-ji/tab-titles-for-ad-manager/master/icons/icon-96.png
 // @downloadURL  https://raw.githubusercontent.com/v-ji/tab-titles-for-ad-manager/master/userscript/tab-titles-for-ad-manager.user.js
 // @homepageURL  https://github.com/v-ji/tab-titles-for-ad-manager
 // @match        https://admanager.google.com/*
