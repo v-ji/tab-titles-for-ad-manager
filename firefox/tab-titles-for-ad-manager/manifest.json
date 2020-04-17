@@ -5,7 +5,7 @@
   "author": "@v-ji",
   "homepage_url": "https://github.com/v-ji/tab-titles-for-ad-manager",
 
-  "description": "Sets order, line item and creative names as tab titles in Google Ad Manager (DFP)",
+  "description": "Sets order, line item, creative and report names as tab titles in Google Ad Manager (DFP)",
 
   "icons": {
     "48": "icons/icon-48.png",

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tab Titles for Ad Manager
-// @description  Sets order, line item and creative names as tab titles in Google Ad Manager (DFP)
+// @description  Sets order, line item, creative and report names as tab titles in Google Ad Manager (DFP)
 // @author       @v-ji
 // @namespace    tab-titles-for-ad-manager
 // @version      0.13.1
