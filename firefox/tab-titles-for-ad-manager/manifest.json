@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Titles for Ad Manager",
+  "version": "0.13",
+  "author": "@v-ji",
+  "homepage_url": "https://github.com/v-ji/tab-titles-for-ad-manager",
+
+  "description": "Sets order, line item and creative names as tab titles in Google Ad Manager (DFP)",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://admanager.google.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
