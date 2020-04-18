@@ -2,6 +2,10 @@
 
 [Google Ad Manager (DFP)](https://admanager.google.com) does not set meaningful tab titles by default, which can get confusing with a high number of tabs open. This is a simple extension to fix that.
 
+| ![Before](screenshots/before.png) | ![After](screenshots/after.png) |
+|:-:|:-:|
+| Before: The tab title conveys no meaning. Which campaign am I even looking at? | After: The tab title is set to the order’s name. I can easily find it again, even if I have multiple tabs open. |
+
 Works for the following objects:
 - Orders
 - Line items
