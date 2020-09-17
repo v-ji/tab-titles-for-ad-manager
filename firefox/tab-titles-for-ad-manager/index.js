@@ -32,8 +32,8 @@
       selector: 'order-overview page-title'
     },
     {
-      path: 'reports/report/results',
-      selector: 'recent-query-executions-dropdown .button-text',
+      path: 'reports/report/',
+      selector: '.page-title h1',
       noLabel: true
     }
   ]
