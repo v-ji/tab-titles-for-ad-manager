@@ -3,7 +3,7 @@
 // @description  Sets order, line item, creative and report names as tab titles in Google Ad Manager (DFP)
 // @author       @v-ji
 // @namespace    tab-titles-for-ad-manager
-// @version      0.13.2
+// @version      0.13.3
 // @icon         https://raw.githubusercontent.com/v-ji/tab-titles-for-ad-manager/master/icons/icon-96.png
 // @downloadURL  https://raw.githubusercontent.com/v-ji/tab-titles-for-ad-manager/master/userscript/tab-titles-for-ad-manager.user.js
 // @homepageURL  https://github.com/v-ji/tab-titles-for-ad-manager
@@ -28,6 +28,7 @@
   // path: Beginning of location.hash
   // selector: CSS selector for the element with the title in textContent
   const entities = [
+    // Old creative view
     {
       path: 'delivery/line_item_creative_association/detail',
       selector: 'creative-header .page-title'
@@ -35,6 +36,11 @@
     {
       path: 'delivery/line_item_creative_set_association/detail',
       selector: 'creative-header .page-title'
+    },
+    // End old creative view
+    {
+      path: 'creatives/creative/detail',
+      selector: '.page-title'
     },
     {
       path: 'delivery/line_item/detail',

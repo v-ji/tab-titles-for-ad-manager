@@ -14,6 +14,7 @@
   // path: Beginning of location.hash
   // selector: CSS selector for the element with the title in textContent
   const entities = [
+    // Old creative view
     {
       path: 'delivery/line_item_creative_association/detail',
       selector: 'creative-header .page-title'
@@ -21,6 +22,11 @@
     {
       path: 'delivery/line_item_creative_set_association/detail',
       selector: 'creative-header .page-title'
+    },
+    // End old creative view
+    {
+      path: 'creatives/creative/detail',
+      selector: '.page-title'
     },
     {
       path: 'delivery/line_item/detail',
